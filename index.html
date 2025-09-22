@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AS Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    * { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 border-b border-gray-700">
+    <div class="max-w-5xl mx-auto px-6 py-4">
+      <div class="flex justify-between items-center">
+        <div class="text-lg font-medium text-white">Adam Suszczewicz</div>
+        <div class="flex space-x-8">
+          <a href="index.html" class="text-gray-300 hover:text-white transition-colors">About</a>
+          <a href="projects.html" class="text-gray-300 hover:text-white transition-colors">Projects</a>
+          <a href="links.html" class="text-gray-300 hover:text-white transition-colors">Links</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-6 py-16">
+    <div class="space-y-8">
+      <!-- Header -->
+      <div class="space-y-4">
+        <h1 class="text-4xl font-semibold text-white">Hi, I'm Adam</h1>
+        <p class="text-xl text-gray-400 max-w-2xl">
+          Computer Science graduate from the University of Warwick, passionate about software engineering and data science.
+        </p>
+      </div>
+
+      <!-- About Section -->
+      <div class="space-y-6 max-w-3xl">
+        <p class="text-gray-300 leading-relaxed">
+          I recently completed my BSc (Hons.) in Computer Science with an Intercalated Year at the University of Warwick. 
+          Throughout my studies, I developed a strong interest in both software engineering and data science through 
+          coursework and personal projects.
+        </p>
+        
+        <p class="text-gray-300 leading-relaxed">
+          My academic journey helped me build a solid foundation in computational theory while sharpening my 
+          problem-solving abilities. I'm always eager to learn new technologies and continuously improve my skills 
+          in the field.
+        </p>
+      </div>
+
+      <!-- Actions -->
+      <div class="flex gap-4 pt-4">
+        <a href="projects.html" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors">
+          View Projects
+        </a>
+        <a href="links.html" class="border border-gray-600 text-gray-300 px-6 py-2 rounded hover:border-gray-500 hover:text-gray-200 transition-colors">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
